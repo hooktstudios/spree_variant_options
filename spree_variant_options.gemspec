@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Spencer Steffen"]
   s.email       = ["spencer@citrusme.com"]
+  s.license     = "BSD-3-Clause"
   s.homepage    = "https://github.com/citrus/spree_variant_options"
   s.summary     = %q{Spree Variant Options is a simple spree extension that replaces the radio-button variant selection with groups of option types and values.}
   s.description = %q{Spree Variant Options is a simple spree extension that replaces the radio-button variant selection with groups of option types and values. Please see the documentation for more details.}
@@ -32,7 +33,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency('sqlite3',          '~> 1.3')
   s.add_development_dependency('capybara')
   s.add_development_dependency('launchy')
-  s.add_development_dependency('database_cleaner')
   # s.add_development_dependency('debugger')
 
 end
